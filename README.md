@@ -47,3 +47,5 @@ run.xml
 run.exe install & run.exe start
 
 <img width="864" alt="image" src="https://user-images.githubusercontent.com/26845888/153735306-d161b493-caa0-4a43-8422-947ffbdea34e.png">
+
+扩展：https://github.com/winsw/winsw
